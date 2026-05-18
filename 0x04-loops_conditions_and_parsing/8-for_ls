@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This scripts displays directory contents without the prefix before first dash
 
-for file in *
+for file in $(ls)
 do
 echo "$file"|cut -d "-" -f 2-
 done
