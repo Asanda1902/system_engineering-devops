@@ -3,8 +3,5 @@
 
 for file in *
 do
-if [ "${file:0:1}"="."
-then
-continue
-echo "${file#*-}"
+"${file#*-}"
 done
