@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script displays "Best School" 10 times
 
-o=l
+i=l
 until [ "$i" -gt 10 ]
 do
 echo "Best School"
