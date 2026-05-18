@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A Bash script that displays Bash PIDs using pgrep
+pgrep bash | while read -r pid name; do echo $pid $name; done
