@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A Bash script that filters Bash processes
+# shellcheck disable SC2009
