@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This scripts displays directory contents without the prefix before first dash
+
+for file in *
+do
+if [ "${file:0:1}"="."
+then
+continue
+echo "${file#*-}"
+done
